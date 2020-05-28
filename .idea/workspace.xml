@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="images to statis">
+    <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="loading index page with icons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sneaky/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/index.html" afterDir="false" />
     </list>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590699726324</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="loading index page with icons">
+      <created>1590702129840</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1590702129840</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,14 +143,15 @@
     <MESSAGE value="started project" />
     <MESSAGE value="adding static and media files" />
     <MESSAGE value="images to statis" />
-    <option name="LAST_COMMIT_MESSAGE" value="images to statis" />
+    <MESSAGE value="loading index page with icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="loading index page with icons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1590699740294">
+    <state x="505" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1590702151815">
       <screen x="82" y="27" width="1838" height="1173" />
     </state>
     <state x="490" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2/62.27.1858.1173@62.27.1858.1173" timestamp="1590620969256" />
-    <state x="505" y="271" key="Vcs.Push.Dialog.v2/82.27.1838.1173@82.27.1838.1173" timestamp="1590699740294" />
+    <state x="505" y="271" key="Vcs.Push.Dialog.v2/82.27.1838.1173@82.27.1838.1173" timestamp="1590702151815" />
     <state x="694" y="282" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1590699780384">
       <screen x="82" y="27" width="1838" height="1173" />
     </state>
