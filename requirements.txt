@@ -3,3 +3,7 @@ psycopg2>=2.7,<3.0
 requests
 flask
 #python module to install in the project
+
+
+#for removing the root access of django
+#sudo chmod -R a+rwX sneaky(project name)

@@ -10,15 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="slight changes in requirement.txt">
+    <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="deleted old project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeexample/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeexample/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeexample/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composeexample/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590620955405</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="deleted old project">
+      <created>1590670324116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590670324116</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -80,13 +80,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="docker files are addes clearly" />
     <MESSAGE value="slight changes in requirement.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="slight changes in requirement.txt" />
+    <MESSAGE value="deleted old project" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted old project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="490" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1590620969256">
-      <screen x="62" y="27" width="1858" height="1173" />
+    <state x="505" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1590670338506">
+      <screen x="82" y="27" width="1838" height="1173" />
     </state>
     <state x="490" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2/62.27.1858.1173@62.27.1858.1173" timestamp="1590620969256" />
+    <state x="505" y="271" key="Vcs.Push.Dialog.v2/82.27.1838.1173@82.27.1838.1173" timestamp="1590670338506" />
     <state x="704" y="512" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590618829134">
       <screen x="62" y="27" width="1858" height="1173" />
     </state>
