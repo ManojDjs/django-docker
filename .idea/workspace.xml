@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="deleted old project">
+    <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="comments on the root access of project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590670324116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="comments on the root access of project">
+      <created>1590670679992</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590670679992</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,14 +87,15 @@
     <MESSAGE value="docker files are addes clearly" />
     <MESSAGE value="slight changes in requirement.txt" />
     <MESSAGE value="deleted old project" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted old project" />
+    <MESSAGE value="comments on the root access of project" />
+    <option name="LAST_COMMIT_MESSAGE" value="comments on the root access of project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1590670338506">
+    <state x="505" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1590670691899">
       <screen x="82" y="27" width="1838" height="1173" />
     </state>
     <state x="490" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2/62.27.1858.1173@62.27.1858.1173" timestamp="1590620969256" />
-    <state x="505" y="271" key="Vcs.Push.Dialog.v2/82.27.1838.1173@82.27.1838.1173" timestamp="1590670338506" />
+    <state x="505" y="271" key="Vcs.Push.Dialog.v2/82.27.1838.1173@82.27.1838.1173" timestamp="1590670691899" />
     <state x="704" y="512" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590618829134">
       <screen x="62" y="27" width="1858" height="1173" />
     </state>
