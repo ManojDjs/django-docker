@@ -10,8 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="docker files are addes clearly">
+    <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="slight changes in requirement.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composeexample/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composeexample/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composeexample/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composeexample/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590620139484</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="slight changes in requirement.txt">
+      <created>1590620955404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590620955405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -64,13 +79,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="docker files are addes clearly" />
-    <option name="LAST_COMMIT_MESSAGE" value="docker files are addes clearly" />
+    <MESSAGE value="slight changes in requirement.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="slight changes in requirement.txt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="490" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1590620172475">
+    <state x="490" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1590620969256">
       <screen x="62" y="27" width="1858" height="1173" />
     </state>
-    <state x="490" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2/62.27.1858.1173@62.27.1858.1173" timestamp="1590620172475" />
+    <state x="490" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2/62.27.1858.1173@62.27.1858.1173" timestamp="1590620969256" />
     <state x="704" y="512" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590618829134">
       <screen x="62" y="27" width="1858" height="1173" />
     </state>
