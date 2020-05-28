@@ -2,6 +2,7 @@ Django>=2.0,<3.0
 psycopg2>=2.7,<3.0
 requests
 flask
+django-crispy-forms
 #python module to install in the project
 
 
