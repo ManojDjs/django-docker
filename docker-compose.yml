@@ -1,9 +1,17 @@
 version: '3'
 services:
-    web:
+  redis:
+    image: "redis:alpine"
+    ports:
+        - "6379:6379"
+    expose:
+        - "6379"
+  web:
       build: .
       command: python sneaky/manage.py runserver 0.0.0.0:8000
       volumes:
         - .:/code
       ports:
         - "8000:8000"
+      links:
+        - redis

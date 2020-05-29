@@ -2,7 +2,11 @@ Django>=2.0,<3.0
 psycopg2>=2.7,<3.0
 requests
 flask
+Pillow
 django-crispy-forms
+asgiref==2.3.0
+channels==2.1.0
+channels_redis==2.1.1
 #python module to install in the project
 
 

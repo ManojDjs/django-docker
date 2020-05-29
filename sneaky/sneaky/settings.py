@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'Postsapp',
     'Userauthapp',
     'crispy_forms',
+    'channels',
+    'groupapp'
 ]
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -54,6 +56,17 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'sneaky.urls'
+
+ASGI_APPLICATION = 'sneaky.routing.application'
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('redis', 6379)],
+        },
+    },
+}
+
 
 TEMPLATES = [
     {
@@ -70,6 +83,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'sneaky.wsgi.application'
 
