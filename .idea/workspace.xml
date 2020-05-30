@@ -11,31 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="loading index page with icons">
-      <change afterPath="$PROJECT_DIR$/sneaky/Userauthapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/Userauthapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/groupapp/consumers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/groupapp/routing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/groupapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/sneaky/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/sneaky/routing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/templates/chat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/templates/group.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/templates/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/templates/room.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sneaky/static/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sneaky/static/reconnecting-websocket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sneaky/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sneaky/templates/chatroom.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/Postsapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/Postsapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/Postsapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/Postsapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/Userauthapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/Userauthapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/Userauthapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/Userauthapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/Userauthapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/Userauthapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/sneaky/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/sneaky/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/sneaky/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/sneaky/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/groupapp/consumers.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/groupapp/consumers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/groupapp/routing.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/groupapp/routing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/groupapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/groupapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/sneaky/routing.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/sneaky/routing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/templates/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/room.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -69,6 +55,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sneaky/static" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sneaky/static" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -151,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590705115342</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="loading index page with icons">
+      <created>1590788314334</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590788314334</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,11 +176,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="loading index page with icons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1590705126239">
+    <state x="736" y="297" key="FileChooserDialogImpl" timestamp="1590843836272">
+      <screen x="82" y="27" width="1838" height="1173" />
+    </state>
+    <state x="736" y="297" key="FileChooserDialogImpl/82.27.1838.1173@82.27.1838.1173" timestamp="1590843836272" />
+    <state x="505" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1590788331427">
       <screen x="82" y="27" width="1838" height="1173" />
     </state>
     <state x="490" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2/62.27.1858.1173@62.27.1858.1173" timestamp="1590620969256" />
-    <state x="505" y="271" key="Vcs.Push.Dialog.v2/82.27.1838.1173@82.27.1838.1173" timestamp="1590705126239" />
+    <state x="505" y="271" key="Vcs.Push.Dialog.v2/82.27.1838.1173@82.27.1838.1173" timestamp="1590788331427" />
     <state x="694" y="282" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1590699780384">
       <screen x="82" y="27" width="1838" height="1173" />
     </state>
