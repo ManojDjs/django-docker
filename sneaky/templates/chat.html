@@ -13,6 +13,9 @@
 <h3 class="text-center">OOPS! you need to login to use our chat rooms.</h3><br>
 {% endif %}
 
+    <!-- chat/templates/chat/index.html -->
+
+
     <script>
         document.querySelector('#room-name-input').focus();
         document.querySelector('#room-name-input').onkeyup = function(e) {
@@ -26,4 +29,5 @@
             window.location.pathname = '/chat/' + roomName + '/';
         };
     </script>
+
 {% endblock %}
