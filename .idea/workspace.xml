@@ -10,14 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="loading index page with icons">
+    <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="working with reconnecting websocket">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sneaky/groupapp/consumers.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/groupapp/consumers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/groupapp/routing.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/groupapp/routing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/sneaky/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/sneaky/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/templates/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/chat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/templates/chatroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/chatroom.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sneaky/templates/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/room.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590788314334</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="working with reconnecting websocket">
+      <created>1591045452012</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591045452012</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,18 +198,19 @@
     <MESSAGE value="adding static and media files" />
     <MESSAGE value="images to statis" />
     <MESSAGE value="loading index page with icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="loading index page with icons" />
+    <MESSAGE value="working with reconnecting websocket" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with reconnecting websocket" />
   </component>
   <component name="WindowStateProjectService">
     <state x="736" y="297" key="FileChooserDialogImpl" timestamp="1591041487905">
       <screen x="82" y="27" width="1838" height="1173" />
     </state>
     <state x="736" y="297" key="FileChooserDialogImpl/82.27.1838.1173@82.27.1838.1173" timestamp="1591041487905" />
-    <state x="505" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1590788331427">
+    <state x="505" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1591045483160">
       <screen x="82" y="27" width="1838" height="1173" />
     </state>
     <state x="490" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2/62.27.1858.1173@62.27.1858.1173" timestamp="1590620969256" />
-    <state x="505" y="271" key="Vcs.Push.Dialog.v2/82.27.1838.1173@82.27.1838.1173" timestamp="1590788331427" />
+    <state x="505" y="271" key="Vcs.Push.Dialog.v2/82.27.1838.1173@82.27.1838.1173" timestamp="1591045483160" />
     <state x="694" y="282" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1590699780384">
       <screen x="82" y="27" width="1838" height="1173" />
     </state>

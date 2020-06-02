@@ -4,12 +4,24 @@
 {% block content %}
 <br>
  {% if user.is_authenticated %}
-
-    <textarea id="chat-log" cols="100" rows="20"></textarea><br>
+<h1 class="text-center">{{ user.get_username }}</h1>
+<div class="container">
+  <h4>your room is created </h4>
+    <div class="row">
+        <div class="col">
+    <textarea id="chat-log" cols="100" rows="10"></textarea><br>
+            </div>
+        <div class="col">
     <input id="chat-message-input" type="text" size="100"><br>
-    <input id="chat-message-submit" type="button" value="Send">
-    {{ room_name|json_script:"room-name" }}
+        </div>
+        <div class="col">
+    <input id="chat-message-submit" class="btn btn-primary" type="button" value="Send">
 
+</div>
+        </div>
+
+</div>
+    {{ room_name|json_script:"room-name" }}
 {% else %}
 <h3 class="text-center">OOPS! you need to login to use our chat rooms.</h3><br>
 {% endif %}
@@ -17,19 +29,27 @@
     <script>
         const roomName = JSON.parse(document.getElementById('room-name').textContent);
         var endpoint='';
+        var user='{{ user.get_username }}';
         console.log(window.location);
         var wsstart='ws://'+window.location.host+'/ws'+window.location.pathname;
         console.log(wsstart);
         const chatSocket = new ReconnectingWebSocket(wsstart);
 
+
+        chatSocket.onopen=function(e){
+        console.log("web scoket is opened from the front end");
+
+        };
         chatSocket.onmessage = function(e) {
             const data = JSON.parse(e.data);
-            document.querySelector('#chat-log').value += (data.message + '\n');
+            document.querySelector('#chat-log').value += (data.message + ":sent__by--"+ user +'\n');
+            console.log("message came from websocket");
         };
 
         chatSocket.onclose = function(e) {
             console.error('Chat socket closed unexpectedly');
         };
+
 
         document.querySelector('#chat-message-input').focus();
         document.querySelector('#chat-message-input').onkeyup = function(e) {
@@ -46,6 +66,7 @@
             }));
             messageInputDom.value = '';
         };
+
     </script>
 
 {% endblock %}
