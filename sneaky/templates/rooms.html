@@ -1,0 +1,52 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+{% load crispy_forms_tags %}
+<br>
+<br>
+<div class="container">
+  <h2>Groups to chat</h2>
+        <div class="card-header">
+    Featured
+  </div>
+              <div class="card">
+                <div class="card-body" ><h4 class="text-center">Sample room</h4></div>
+                  <a href="#" class="btn btn-primary" id="sampleroom1">Join room</a>
+              </div>
+
+    <div class="card-header">
+    Featured
+  </div>
+                 <div class="card">
+                     <div class="card-body" ><h4 class="text-center">Sample room2</h4> </div>
+                 <a href="#" class="btn btn-primary" id="sampleroom2">Join room</a>
+              </div>
+
+    <div class="card-header">
+    Featured
+  </div>
+             <div class="card">
+                 <div class="card-body" ><h4 class="text-center">Sample room3</h4></div>
+                 <a href="#" class="btn btn-primary" id="sampleroom3">Join room</a>
+
+          </div>
+  </div>
+
+<script>
+
+        document.querySelector('#sampleroom3').onclick = function(e) {
+            var roomName = "sampleroom3";
+            window.location.pathname = '/chat/' + roomName + '/';
+        };
+        document.querySelector('#sampleroom2').onclick = function(e) {
+            var roomName = "sampleroom2";
+            window.location.pathname = '/chat/' + roomName + '/';
+        };
+        document.querySelector('#sampleroom1').onclick = function(e) {
+            var roomName = "sampleroom1";
+            window.location.pathname = '/chat/' + roomName + '/';
+        };
+    </script>
+
+{% endblock %}
