@@ -25,8 +25,8 @@
 {% else %}
 <h3 class="text-center">OOPS! you need to login to use our chat rooms.</h3><br>
 {% endif %}
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reconnecting-websocket/1.0.0/reconnecting-websocket.min.js"></script>
-    <script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/reconnecting-websocket/1.0.0/reconnecting-websocket.min.js"></script>
+    <script type="text/javascript">
         const roomName = JSON.parse(document.getElementById('room-name').textContent);
         var endpoint='';
         var user='{{ user.get_username }}';
@@ -61,6 +61,8 @@
         document.querySelector('#chat-message-submit').onclick = function(e) {
             const messageInputDom = document.querySelector('#chat-message-input');
             const message = messageInputDom.value;
+            console.log(message)
+
             chatSocket.send(JSON.stringify({
                 'message': message
             }));

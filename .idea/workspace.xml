@@ -11,8 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="working with reconnecting websocket">
+      <change afterPath="$PROJECT_DIR$/sneaky/groupapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sneaky/groupapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sneaky/groupapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sneaky/groupapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sneaky/groupapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sneaky/groupapp/consumers.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/groupapp/consumers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/groupapp/routing.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/groupapp/routing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/sneaky/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/sneaky/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sneaky/templates/chatroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/chatroom.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sneaky/templates/room.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/room.html" afterDir="false" />
     </list>
@@ -38,6 +46,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cVezWCDAezYkytyG3oYsnQGmt8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,10 +59,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/justchat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sneaky/groupapp" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sneaky/groupapp" />
       <recent name="$PROJECT_DIR$/sneaky/static" />
     </key>
   </component>
@@ -60,6 +72,9 @@
       <module name="django-docker" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sneaky/groupapp" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -188,6 +203,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="docker files are addes clearly" />
