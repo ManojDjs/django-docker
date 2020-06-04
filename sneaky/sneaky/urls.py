@@ -21,12 +21,10 @@ from django.conf import settings
 from django.views.generic import RedirectView
 from django.conf.urls.static import static
 from django.views.generic import TemplateView
-from Postsapp import  views
-from Userauthapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'post/',include('Postsapp.urls')),
+    url(r'posts/',include('posts.urls')),
     url(r'index/',include('Userauthapp.urls')),
     url(r'chat/',include('groupapp.urls'))
 

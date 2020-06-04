@@ -11,16 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355654d3-559a-4dd8-9f09-bf0c8cd7c130" name="Default Changelist" comment="changed redis host from redis to port and finally its working">
-      <change afterPath="$PROJECT_DIR$/sneaky/templates/landing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sneaky/templates/rooms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sneaky/templates/posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/Userauthapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/Userauthapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/Userauthapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/Userauthapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/groupapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/groupapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sneaky/groupapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/groupapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/Postsapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/Postsapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/Postsapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/Postsapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/Postsapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/Postsapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/Postsapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/Postsapp/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sneaky/sneaky/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/sneaky/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/sneaky/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/sneaky/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sneaky/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sneaky/templates/chatroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/chatroom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sneaky/templates/rooms.html" beforeDir="false" afterPath="$PROJECT_DIR$/sneaky/templates/rooms.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +46,12 @@
         <option value="ManojDjs &lt;djsmanoj0000@gmail.com&gt;" />
       </list>
     </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cVezWCDAezYkytyG3oYsnQGmt8" />
@@ -57,10 +68,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sneaky/groupapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sneaky/templates/Postsapp" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sneaky/templates/Postsapp" />
       <recent name="$PROJECT_DIR$/sneaky/groupapp" />
       <recent name="$PROJECT_DIR$/sneaky/static" />
     </key>
@@ -195,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591222543368</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="changed redis host from redis to port and finally its working">
+      <created>1591228529415</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591228529415</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,11 +247,11 @@
       <screen x="82" y="27" width="1838" height="1173" />
     </state>
     <state x="736" y="297" key="FileChooserDialogImpl/82.27.1838.1173@82.27.1838.1173" timestamp="1591041487905" />
-    <state x="505" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1591222558540">
+    <state x="505" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2" timestamp="1591228561714">
       <screen x="82" y="27" width="1838" height="1173" />
     </state>
     <state x="490" y="271" width="1000" height="656" key="Vcs.Push.Dialog.v2/62.27.1858.1173@62.27.1858.1173" timestamp="1590620969256" />
-    <state x="505" y="271" key="Vcs.Push.Dialog.v2/82.27.1838.1173@82.27.1838.1173" timestamp="1591222558540" />
+    <state x="505" y="271" key="Vcs.Push.Dialog.v2/82.27.1838.1173@82.27.1838.1173" timestamp="1591228561714" />
     <state x="694" y="282" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1590699780384">
       <screen x="82" y="27" width="1838" height="1173" />
     </state>

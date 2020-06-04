@@ -5,6 +5,7 @@
 {% load crispy_forms_tags %}
 <br>
 <br>
+{% if user.is_authenticated %}
 <div class="container">
   <h2>Groups to chat</h2>
         <div class="card-header">
@@ -32,7 +33,9 @@
 
           </div>
   </div>
-
+{% else %}
+<h3 class="text-center">OOPS! you need to login to use our chat rooms.</h3><br>
+{% endif %}
 <script>
 
         document.querySelector('#sampleroom3').onclick = function(e) {

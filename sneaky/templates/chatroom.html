@@ -20,7 +20,7 @@ margin-left: 5px;
 
 </style>
 <br>
-
+ {% if user.is_authenticated %}
 <script src=
 "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
@@ -41,7 +41,9 @@ margin-left: 5px;
 
 </div>
 </div>
-
+{% else %}
+<h3 class="text-center">OOPS! you need to login to use our chat rooms.</h3><br>
+{% endif %}
 <script>
 $(document).ready(function() {
             $("button").click(function() {
