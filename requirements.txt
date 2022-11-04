@@ -8,7 +8,7 @@ asgiref==2.3.0
 channels==2.1.0
 channels_redis==2.1.1
 #python module to install in the project
-Twisted==18.9.0
+Twisted==22.10.0
 txaio==18.8.1
 
 
